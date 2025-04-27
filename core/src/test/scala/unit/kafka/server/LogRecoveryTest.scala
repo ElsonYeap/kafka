@@ -58,7 +58,7 @@ class LogRecoveryTest extends QuorumTestHarness {
   def configProps1 = configs.head
   def configProps2 = configs.last
 
-  val message = "hello"
+  val message = "test-message"
 
   var admin: Admin = _
   var producer: KafkaProducer[Integer, String] = _
