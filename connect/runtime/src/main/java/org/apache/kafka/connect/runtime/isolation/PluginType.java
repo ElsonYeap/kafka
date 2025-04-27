@@ -45,7 +45,7 @@ public enum PluginType {
         this.klass = klass;
     }
 
-    public String simpleName() {
+    public String getSimpleName() {
         return klass.getSimpleName();
     }
 
