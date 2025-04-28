@@ -105,7 +105,7 @@ public class Connect<H extends Herder> {
     }
 
     // Visible for testing
-    public RestServer rest() {
+    public ServerRest rest() {
         return rest;
     }
 
